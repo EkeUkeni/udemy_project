@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3 {
+    font-family: suisseWork, Georgia, Times, "times new roman", serif, "apple color emoji", "segoe ui symbol";
+}
+/* style for section-one */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: small;
+}
+.title-bar a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-size: small;
+}
+.title-bar input{
+    background-color: #f7f9fa;
+    border: 1px solid none;
+    padding: 5px 150px;
+    border-radius: 35px;
+}
+.title-bar .anchor5,
+.title-bar .anchor6 {
+    border: 1px solid black;
+    padding: 5px 20px 0px 20px;
+    font-weight: bold;
+}
+.title-bar .anchor6 {
+    background-color: black;
+    color: white;
+}
+.title-bar .anchor7 {
+    border: 1px solid black;
+    padding: 5px 10px 0px 10px;
+}
+
+/* style for section-two */
+.section-two {
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+    
+.background-box {
+    width: 400px;
+    height: 150px;
+    padding: 5px 20px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.background-image {
+    background-image: url('images/bgr-images.jpg');
+    background-size: contain; 
+    width: 100vw;
+    height: auto;
+    overflow-y: auto;
+}
+
+/* style for section-three */
+.nav1 {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.nav1 a,
+.box a,
+.explore a {
+    text-decoration: none;
+}
+.border-container {
+    padding: 20px;
+    border: 2px ridge antiquewhite;
+}
+.explore {
+    margin: 25px;
+    border: 2px ridge antiquewhite;
+    padding: 10px;
+    width: 100px;
+    font-size: small;
+    
+}
+.python-box {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-between;
+    font-size: small;
+    gap: 20px;
+}
+.python-box a {
+    text-decoration: none;
+}
+.python-box img {
+    width: 200px; 
+    height: 120px;
+}
+/* style for section-four */
+.section-four {
+    background-color: #f7f9fa;
+    margin: 50px 0;
+    border: 2px none antiquewhite;
+    outline: none; 
+}
+.border4 {
+    display: flex;
+    padding: 40px;
+    
+}
+.border4 img {
+    padding: 0 20px;
+}
+/* style for section-five */
+.section-five {
+    margin: 80px 0 90px;
+}
+/* sharing other style with section-two */
+
+/* style for section-six */
+.section-six {
+    background-color: #f7f9fa;
+    border: 2px none none;
+}
+.headings {
+    font-size: 20px;
+}
+.category-header,.category  {
+    display: flex;
+    gap: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    list-style-type: none;
+}
+.category li {
+    margin-top: 30px;
+}
+.category ul {
+    list-style-type: none;
+}
+.category p {
+    font-size: 14px;
+    color: #675B58
+}
+.explore-moretopics {
+    border: 1px solid black;
+    padding: 10px;
+}
+.explore-moretopics a {
+    text-decoration: none;
+}
+
+/* style for section-seven */
+.section-seven {
+    margin: 100px 0;
+}
+.section-seven a{
+    text-decoration: none;
+}
+
+.teams {
+    text-align: center;
+}
+.teams h3{
+    font-size: 30px;
+}
+.teams-img {
+    display: flex;
+    justify-content: space-around;
+}
+/* style for section-eight */
+.section-eight {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px
+}
+
+.udemy-team1-b ul {
+    line-height: 30px;
+}
+
+.udemy-team1-c :first-child,
+.teacher,
+.instructor a{
+    background-color: black;
+    color: white;
+    border: 1px ridge black;
+    padding: 10px;
+}
+.udemy-team1-c :last-child {
+    border: 1px ridge black;
+    padding: 10px;
+}
+.udemy-team1-a a,
+.udemy-team1-c a{
+    text-decoration: none;
+}
+/* style for section-nine */
+.section-nine {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.section-nine .man {
+    margin-right: 80px;
+}
+.instructor {
+    margin-top: 80px;
+}
+.instructor a{
+    text-decoration: none;
+}
+/* style for section-ten */
+.section-ten {
+    background-color: #1c1d1f;
+    color: #fff;
+    border: 1px ridge black;
+}
+.footer1 {
+    margin: 20px;
+    display: flex;
+}
+.footer1-list ul{
+    margin-right: 80px;
+    list-style-type: none;
+}
+.footer1-list ul a,
+.language-selector img,
+.language-selector a{
+    text-decoration: none;
+    color: white;
+   
+}
+.language-selector {
+    display: flex;
+    margin-left: 300px;
+    border: 1px solid white;
+    padding: 10px 40px;
+    height: 20px;
+}
+/* style for section-eleven */
+.section-eleven {
+    background-color: #1c1d1f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
