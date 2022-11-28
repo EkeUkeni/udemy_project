@@ -127,11 +127,13 @@ nav {
 .section-six {
     background-color: #f7f9fa;
     border: 2px none none;
+    padding: 80px 0 80px 0;
 }
 .headings {
     font-size: 20px;
 }
-.category-header,.category  {
+.category-header,
+.category  {
     display: flex;
     gap: 120px;
     font-size: 15px;
@@ -229,7 +231,10 @@ nav {
 .footer1-list ul{
     margin-right: 80px;
     list-style-type: none;
+    line-height: 30px;
+    font-size: small;
 }
+
 .footer1-list ul a,
 .language-selector img,
 .language-selector a{
@@ -251,5 +256,4 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    
 }
