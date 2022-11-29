@@ -10,6 +10,7 @@ h3 {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 20px;
     font-size: small;
 }
@@ -21,14 +22,14 @@ nav {
 }
 .title-bar input{
     background-color: #f7f9fa;
-    border: 1px solid none;
-    padding: 5px 150px;
+    border: 1px ridge  burlywood;
+    padding: 15px 150px;
     border-radius: 35px;
 }
 .title-bar .anchor5,
 .title-bar .anchor6 {
     border: 1px solid black;
-    padding: 5px 20px 0px 20px;
+    padding: 10px 20px;
     font-weight: bold;
 }
 .title-bar .anchor6 {
@@ -75,6 +76,7 @@ nav {
 .box a,
 .explore a {
     text-decoration: none;
+    color: #1c1d1f;
 }
 .border-container {
     padding: 20px;
@@ -111,8 +113,12 @@ nav {
 }
 .border4 {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 40px;
-    
+}
+.border4-width {
+    padding-right: 40px;
 }
 .border4 img {
     padding: 0 20px;
