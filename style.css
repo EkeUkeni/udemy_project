@@ -146,6 +146,35 @@ nav {
 }
 /* sharing other style with section-two */
 
+/* style for section-fiveB */
+.section-fiveB{
+    padding: 30px 10px;
+}
+.black-white-img1,
+.black-white-img2 {
+    display: flex;
+}
+.bw-image {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.bw-image :last-child{
+    color: #1c1d1f;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.bw-image img {
+    background-color: #f7f9fa;
+    width: 290px;
+    border: 1px solid none;
+    margin-right: 20px;
+
+
+}
+
 /* style for section-six */
 .section-six {
     background-color: #f7f9fa;
